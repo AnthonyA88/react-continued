@@ -13,7 +13,7 @@
 
 ---
 
-## Framing (20 minutes / 0:20)
+## Framing 
 
 In today's class you're going to get practice building a React app that's more complex than the intro's simple blog example. When building an app like this, it's important to keep certain development practices and paradigms in mind so that we write maintainable code.
 
@@ -71,7 +71,7 @@ Because the same input will always produce the same output, components are easil
 
 > If you're interested, [Ava](https://www.npmjs.com/package/ava) is a popular testing library for React.
 
-## State (10 minutes / 0:30)
+## State 
 
 So why do we follow all these principles? If not, it is easy to lose control of our application's state.
 
@@ -117,11 +117,6 @@ Let's look at the process of a rendering a React Component...
 ![](./react-render.png)
 
 
----
-
-## Break (10 minutes / 0:50)
-
----
 
 ## Exercise: React OMDB
 
@@ -131,7 +126,7 @@ The desired outcome is for you to take a look at the solution and from there dev
 
 ---
 
-### You Do: Map Out React OMDB (10 minutes / 1:00)
+### You Do: Map Out React OMDB
 
 > 5 minutes set-up and exercise. 5 minutes review.
 
@@ -202,8 +197,7 @@ To kick things off, let's add a `HelloWorld` component to make sure things are a
 
 ---
 
-#### Step 2: [Adds Home UI](https://github.com/ga-wdi-exercises/react-omdb/commit/13a6ae733e45a9ac8bfacc10978f531b68b653c6) (5 minutes / 1:30)
-
+#### Step 2: [Adds Home UI](https://github.com/ga-wdi-exercises/react-omdb/commit/13a6ae733e45a9ac8bfacc10978f531b68b653c6) 
 Great, now that we know React is working, let's refactor that HelloWorld component to serve as our app's Home component.
 
 **Actions**
@@ -229,7 +223,7 @@ Great, now that we know React is working, let's refactor that HelloWorld compone
 
 ---
 
-#### Step 3: [Adds Search UI](https://github.com/ga-wdi-exercises/react-omdb/commit/1161c0c3eba93e036261c96288c75b1cf9ddf476) (20 minutes / 1:50)
+#### Step 3: [Adds Search UI](https://github.com/ga-wdi-exercises/react-omdb/commit/1161c0c3eba93e036261c96288c75b1cf9ddf476) 
 
 > Here are some other commits demonstrating how we can complete this part in three steps...
 >
@@ -299,10 +293,6 @@ Then...
   > In order to prevent the event firing a page refresh and thus losing our app's state
 
 </details>
-
----
-
-### Check-in / Break (15 minutes / 2:05)
 
 ---
 
@@ -469,7 +459,7 @@ To add the finishing touches to our application, let's take a stab at styling ou
 
 ---
 
-## Closing (10 minutes / 2:30)
+## Closing
 
 - What are some struggles you encountered when building out a more complex React app for the first time?
 - What are some good rules of thumb to help keep components maintainable?
